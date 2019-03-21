@@ -40,7 +40,7 @@
      <h2>To Buy:</h2>
      <ul>
        <li ng-repeat="item in shoppingList.items">
-          Buy {{ item.quantity }} {{item.name}}<button ng-click="shoppingList.buyItem($index)" type="button" class="btn btn-outline-primary">Bought</button>
+          Buy {{ item.quantity }} {{item.name}}<button ng-click="shoppingList.buyItem($index)" type="button" class="btn btn-outline-primary">Bought <i class="fas fa-shopping-cart"> </i></button>
        </li>       
      </ul>
      <div ng-if="shoppingList.items.length == 0;" class="emptyMessage">Everything is bought!</div>
