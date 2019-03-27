@@ -13,14 +13,14 @@
    <div class="container" >
     <h1>Narrow Down Your Chinese Menu Choice</h1>
     <div class="form-group">
-      <input type="text" placeholder="search term" 
+      <input type="text" placeholder="search term (required)" 
                          class="form-control" 
                          ng-change='menuSearcher.searchTerm = (menuSearcher.searchTerm | lowercase)' 
                          ng-trim="true"
                          ng-model='menuSearcher.searchTerm'>
     </div>
     <div class="btn-narrow">
-      <button class="btn btn-primary" ng-click='menuSearcher.search()'>Narrow It Down For Me!</button>
+      <button class="btn btn-primary" ng-disabled="!menuSearcher.searchTerm" ng-click='menuSearcher.search()'>Narrow It Down For Me!</button>
       <br><br>
     </div> 
     <!-- found-items should be implemented as a component -->

@@ -38,7 +38,7 @@
             templateUrl: 'founditems.html',                       
             scope:{
                found: '<',
-               myRemove: '&'
+               myRemove: '&'               
             }
             // controller: MenuItemsDisplayDirectiveController,
             // controllerAs: 'menu',
@@ -63,7 +63,7 @@
                     // process result and only keep items that match
                     console.log('MenuSearchService.GetMenuItems HTTP Response:',  response);
                     // return menu items 
-                    if (!searchTerm || searchTerm == "") {
+                    if (!searchTerm || searchTerm == ""|searchTerm == "*") {
                         return response.data.menu_items;
                     }                    
                     // response.data.filter( function());

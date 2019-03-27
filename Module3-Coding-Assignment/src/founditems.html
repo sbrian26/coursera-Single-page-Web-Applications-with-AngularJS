@@ -7,9 +7,11 @@
         </div>
         <div class="col-4">
           <button ng-click="myRemove({index: $index});">[{{ item.short_name}}] Don't want this one!</button>
-        </div>           
-      
+        </div>                   
       <dd class="col-8">{{ item.description }}</dd>    
     </div>
   </div>
+  <div ng-show="found && found.length == 0" class="alert alert-info" role="alert">
+      No menu items found!
+   </div>
 </dl>
