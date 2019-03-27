@@ -1,0 +1,18 @@
+<h3 ng-show="found && found.length > 0">Found Menu Items</h3> 
+<dl>
+  <div ng-repeat="item in found" class="list">            
+    <div class="row">
+        <div class="col-8">
+          <dt>[{{ item.short_name}}] {{ item.name }}</dt>
+        </div>
+        <div class="col-4">
+          <button ng-click="myRemove({index: $index});">[{{ item.short_name}}] Don't want this one!</button>
+        </div>           
+      </div class="row">
+      <dd class="col-8">{{ item.description }}</dd>    
+    </div>
+  </div>
+    </div>
+    
+   
+</dl>
