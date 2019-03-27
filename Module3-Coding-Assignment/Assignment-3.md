@@ -1,6 +1,7 @@
 Module 3 Coding Assignment
+[completed assignment](https://sbrian26.github.io/coursera-Single-page-Web-Applications-with-AngularJS/Module3-Coding-Assignment/src/)
 =======
-[Click here to SIGN UP for the ***Single Page Web Applications with AngularJS*** course on Coursera](https://www.coursera.org/learn/single-page-web-apps-with-angularjs). It's FREE!
+[Click here to SIGN UP for the ***Single Page Web Applications with AngularJS*** course on Coursera](https://www.coursera.org/learn/single-page-web-apps-with-angularjs). It's FREE (to Audit)!
 
 **Time to put all that knowledge to code!**
 
