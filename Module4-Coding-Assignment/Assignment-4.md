@@ -1,5 +1,5 @@
 Module 4 Coding Assignment
-[completed assignment](https://sbrian26.github.io/coursera-Single-page-Web-Applications-with-AngularJS/Module4-Coding-Assignment/src/)
+[completed assignment](https://sbrian26.github.io/coursera-Single-page-Web-Applications-with-AngularJS/Module4-Coding-Assignment/)
 =======
 [Click here to SIGN UP for the ***Single Page Web Applications with AngularJS*** course on Coursera](https://www.coursera.org/learn/single-page-web-apps-with-angularjs). It's FREE (to Audit)!
 
