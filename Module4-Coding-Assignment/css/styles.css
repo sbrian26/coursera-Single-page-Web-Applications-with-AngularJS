@@ -1,0 +1,9 @@
+li[ui-sref]:hover {
+    /* display: inline-block;
+    cursor: pointer;
+    border:solid black 1px;
+    background:lightblue;
+    padding-left: 3px;
+    padding-right:3px; */
+    background-color: #eeeeee;
+}

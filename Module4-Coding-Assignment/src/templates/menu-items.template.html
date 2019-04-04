@@ -1,0 +1,15 @@
+<h4><a ui-sref="Home">Home</a>&lt;<a ui-sref="categoryList">List Menu Categories</a>&lt;{{menuItemsCtrl.categoryName}} Menu</span></h4>
+<br>
+<dl>
+  <div ng-repeat="item in menuItemsCtrl.menuItems" class="list">            
+    <div class="row">
+        <div class="col-8">
+          <dt>[{{ item.short_name}}] {{ item.name }}</dt>
+        </div>      
+      <dd class="col-8">{{ item.description }}</dd>    
+    </div>
+  </div>
+  <div ng-show="menuItemsCtrl.menuItems && menuItemsCtrl.menuItems.length == 0" class="alert alert-info" role="alert">
+      No menu items in this category.
+   </div>
+</dl>
